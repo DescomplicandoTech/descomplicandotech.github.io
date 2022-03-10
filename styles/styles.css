@@ -1,5 +1,5 @@
 body {
-	background-image: url("FundoInstaDT.png");
+	background-image: linear-gradient(to bottom right, red, yellow);
 }
 
 div {
