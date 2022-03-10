@@ -1,6 +1,7 @@
 body {
 	background-image: linear-gradient(to bottom right, #2a677a, #112732);
 	background-size: 100% 100%;
+	background-attachment: fixed;
 }
 
 div {
@@ -65,4 +66,23 @@ footer {
 	margin-right: auto; 
 	font-family: 'Lato', sans-serif;
 	color: darkgray;
+}
+
+.column {
+  float: left;
+  text-align: center; 
+  vertical-align: middle;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+#apps{
+	border-radius: 20px;
 }
