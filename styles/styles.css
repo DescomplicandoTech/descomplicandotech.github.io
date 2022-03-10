@@ -90,6 +90,7 @@ footer {
 	text-align: center;
 	font-family: 'Lato', sans-serif;
 	vertical-align: middle;
+	color: black;
 }
 
 a { color:white; }
@@ -106,6 +107,10 @@ a { color:white; }
 	}
 
 	sep {
+		color: white;
+	}
+
+	#socialSep txt {
 		color: white;
 	}
 }
