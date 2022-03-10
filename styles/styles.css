@@ -1,6 +1,6 @@
 body {
 	background-color: #2a677a;
-	background-image: linear-gradient(to bottom right, #2a677a, #112732);
+	background-image: linear-gradient(#2a677a, #112732, #2a677a);
 	background-size: 100% 100%;
 }
 
