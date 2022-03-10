@@ -1,6 +1,5 @@
 body {
-	background-color: #112732;
-	background-image: linear-gradient(#112732, #2a677a, #112732);
+	background-color: #dfe6e9;
 	background-size: 100% 100%;
 }
 
@@ -41,8 +40,7 @@ a {
 .separator {
 	border-radius: 10px;
 	height: 40px;
-	background-color: rgba(17, 39, 50, .50);  
- 	backdrop-filter: blur(5px);
+	background-color: #ecf0f1;
  	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	margin-top: 5px;
 	margin-bottom: 5px;
@@ -55,8 +53,9 @@ a {
 	font-size: 18px;
 
 }
+
 sep{
-	color: white;
+	color: black;
 }
 
 footer {
@@ -85,4 +84,19 @@ footer {
 
 #apps{
 	border-radius: 20px;
+}
+
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: #1b2326;
+		background-size: 100% 100%;
+	}
+
+	.separator {
+		background-color: #364b52;
+	}
+
+	sep {
+		color: white;
+	}
 }
